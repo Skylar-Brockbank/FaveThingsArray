@@ -1,0 +1,42 @@
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: .5em;
+}
+
+form label {
+  justify-self: center;
+}
+body{
+  background-color: rgb(0, 77, 45);
+}
+.primary {
+  background-color: rgb(182, 167, 117);
+  width: 80%;
+  margin: 2em auto;
+  padding: 1em;
+  border-radius: .5em;
+}
+.secondary {
+  background-color: rgb(182, 167, 117);
+  width: 80%;
+  margin: 2em auto;
+  padding: 1em;
+  border-radius: .5em;
+}
+
+#subButton {
+  display: block;
+  background-color: red;
+  width: fit-content;
+  box-sizing:border-box;
+  padding: .25em;
+  color:white;
+  border-radius: .25em;
+}
+#subButton:hover {
+  color: blue;
+}
+.hidden {
+  display: none;
+}
